@@ -11,7 +11,7 @@ function User() {
     useEffect(() => {
         getPosts();
         console.log(users);
-    }, []);
+    }, [users]);
 
     return (
         <div>
